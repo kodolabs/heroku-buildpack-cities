@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "CitiesBuildpack"
+exit 0

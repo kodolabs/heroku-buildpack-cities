@@ -4,4 +4,5 @@ mkdir $1/tmp
 wget -q https://s3-us-west-2.amazonaws.com/cities-gem/cities.tar.gz -O $1/tmp/cities.tar.gz
 cd $1/tmp
 tar -xzf cities.tar.gz
+rm cities.tar.gz
 echo "-----> Downloaded cities database"
